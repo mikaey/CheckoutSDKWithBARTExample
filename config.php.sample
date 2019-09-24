@@ -1,0 +1,15 @@
+<?php
+
+// Replace with your client ID and secret
+define( 'CLIENT_ID', '' );
+define( 'CLIENT_SECRET', '' );
+
+// Replace with the merchant ID from your PayPal account
+define( 'PARTNER_ID', '' );
+
+// Set to api.sandbox.paypal.com for the sandbox environment, or api.paypal.com for the production environment
+define( 'API_HOST', 'api.sandbox.paypal.com' );
+
+// In a real-world environment, you'd select the merchant ID depending on who needs to be paid
+// For this example, a static merchant ID will work
+define( 'PAYEE_ID', '' );
